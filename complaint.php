@@ -33,7 +33,7 @@
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required><br><br>
 
-      <label for="contact_number">Contact No:</label>
+      <label for="contact_number">Contact Number:</label>
       <input type="tel" id="contact_number" name="contact_number" required><br><br>
 
       <label for="subject">Subject:</label>
