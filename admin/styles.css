@@ -1,0 +1,69 @@
+/* Reset some default styles for consistency */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styles for header */
+  header {
+    background-color: #7bb2f1;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style-type: none;
+    background-color: #8400ff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Styles for about section */
+  main h2 {
+    color: #333;
+  }
+  
+  main p {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for links */
+  a {
+    color: #007bff;
+  }
+   /* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(0, 255, 34); /* Button background color */
+    color: #000000; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* Remove border */
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .button:hover {
+    background-color:rgb(255, 255, 255); /* Button background color on hover */
+  }
+  

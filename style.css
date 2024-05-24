@@ -1,0 +1,138 @@
+/* Reset some default styles for consistency */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styles for header */
+  header {
+    background-color: #7bb2f1;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style-type: none;
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Styles for about section */
+  main h2 {
+    color: #333;
+  }
+  
+  main p {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for links */
+  a {
+    color: #007bff;
+  }
+  
+  /* Form styles */
+/* Form container styles */
+.form-container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4; /* Background color */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ddd; /* Border color and width */
+}
+
+/* Form input styles */
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container textarea {
+  width: calc(100% - 20px); /* Adjust width to account for padding */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-container textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+/* Submit button styles */
+.form-container input[type="submit"] {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #ff0000; /* Button background color on hover */
+}
+
+
+  /* How to complain section */
+.how-to-complain {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .complain-section {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  
+  .complain-section h2 {
+    color: #333;
+  }
+  
+  .complain-section p {
+    color: #555;
+  }
+  /* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none;
+  border-radius: 5px; /* Rounded corners */
+  border: none; /* Remove border */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+  background-color: #ff0000; /* Button background color on hover */
+}
